@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Welcome to City Taxi</title>
+    <title>City Taxi - Search</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -60,67 +60,47 @@
     </div>
 
     <div class="container-xl mt-3 bg-warning">
-      <section class="vh-100">
+      <section class="vh-10">
         <div class="container py-5 h-100">
           <div
-            class="row d-flex align-items-center justify-content-center h-100"
-          >
-            <div class="col-md-8 col-lg-7 col-xl-6">
-              <img src="images/003.png" class="img-fluid" alt="Phone image" />
-            </div>
-            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-              <form>
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input
-                    type="email"
-                    id="form1Example13"
-                    class="form-control form-control-lg"
-                  />
-                  <label class="form-label" for="form1Example13"
-                    >Email address</label
-                  >
+            class="row d-flex align-items-center justify-content-center h-100"></div>
+
+
+            <table>
+              <th>
+                <div>
+                  <p> <b>Pick up</b></p>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Your location" />
+                    <!--<button class="btn btn-dark" type="button">Search</button>--!>
+                  </form>
                 </div>
 
-                <!-- Password input -->
-                <div class="form-outline mb-0">
-                  <input
-                    type="password"
-                    id="form1Example23"
-                    class="form-control form-control-lg"
-                  />
-                  <label class="form-label" for="form1Example23"
-                    >Password</label
-                  >
+              </th>
+
+              <th>
+                <div>
+                  <p> <b>Drop</b></p>
+                  <form class="d-flex">
+                    <input class="form-control me-3" type="text" placeholder="Destination" />
+                    <!-- <button class="btn btn-dark" type="button">Search</button> --!>
+                  </form>
                 </div>
 
-                <div
-                  class="d-flex justify-content-around align-items-center mb-10"
-                >
-                  <!-- Checkbox -->
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="form1Example3"
-                      checked
-                    />
-                    <label class="form-check-label" for="form1Example3">
-                      Remember me
-                    </label>
-                  </div>
-                  <a href="#!">Forgot password?</a>
-                </div>
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-lg btn-block">
-                  Sign in
-                </button>
-              </form>
+
+              </th>
+
+
+            </table>
+
+            <div>
+              <button class="btn btn-dark" type="button"> Book now</button>
             </div>
+            
           </div>
         </div>
       </section>
     </div>
+
   </body>
 </html>
